@@ -47,6 +47,8 @@ namespace ConsoleApp1
     class DataStructureQueue : IDataStructure
     {
         // the QUEUE holds the classes (that is classroom of students!)
+        // TO DO: insert the contents of the Data File: Classroom Data Set 
+        
         public Queue q1 = new Queue();
 
         Sort_DataStructure Sort1;

@@ -46,6 +46,7 @@ namespace ConsoleApp1
 
     class DataStructureQueue : IDataStructure
     {
+        // the QUEUE holds the classes (that is classroom of students!)
         public Queue q1 = new Queue();
 
         Sort_DataStructure Sort1;
@@ -69,6 +70,7 @@ namespace ConsoleApp1
 
     class DataStructureStack : IDataStructure
     {
+        // the STACK holds the Students
         public Stack s1 = new Stack();
 
         Sort_DataStructure Sort1;
